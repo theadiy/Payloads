@@ -11,3 +11,6 @@ The second method involves submitting a series of UNION SELECT payloads specifyi
 ' UNION SELECT NULL,NULL--
 ' UNION SELECT NULL,NULL,NULL--
 etc.
+
+https://portswigger.net/web-security/sql-injection/cheat-sheet
+
